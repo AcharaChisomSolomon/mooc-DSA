@@ -14,7 +14,7 @@ print("time:", round(end_time1 - start_time1, 2), "s")
 
 start_time2 = time.time()
 for i in range(n):
-    numbers.pop()
+    numbers.pop(0)
 end_time2 = time.time()
 
 print("deletions:")
